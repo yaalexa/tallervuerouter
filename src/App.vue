@@ -3,10 +3,25 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+       <router-link to="/Inicio">Inicio</router-link>
     </nav>
     <router-view/>
   </div>
 </template>
+<script>
+import Inicio from '../views/InicioView.vue'
+export default {
+    data(){
+        return {
+            
+        }
+    },
+    components:{
+        Header,
+       
+    },
+} 
+</script>
 
 <style>
 #app {
